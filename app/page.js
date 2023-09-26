@@ -29,7 +29,7 @@ export default function Home() {
       </div>
       <div className="flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
 
-     <FullChatbot/>
+     <FullChatbot className="flex h-48 w-full items-end justify-center w-70vw"  style={{ width: "70vw" }}/>
      </div>
     </main>
   )
